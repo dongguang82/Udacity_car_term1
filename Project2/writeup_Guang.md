@@ -62,9 +62,11 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 As a first step, I decided to convert the images to grayscale because some reserchers shew they achieved very high accuracy, and also converting the pictures to grayscale make the data size smaller since the chanel number is reduced from 3 to 1.
 
-Here is an example of a traffic sign image before and after grayscaling.
+Here are 15 examples of traffic sign image before grayscaling.
 
 ![alt text][image2]
+
+Here are 15 examples of traffic sign image after grayscaling.
 
 ![alt text][image3]
 
