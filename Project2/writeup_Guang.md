@@ -70,7 +70,7 @@ Here are 15 examples of traffic sign image after grayscaling.
 
 ![alt text][image3]
 
-As a last step, I normalized the image data because it can lead to better convergence usually. Here is how it looks like after the normalizasion operation using (pixel - 128)/ 128.
+As the last step, I normalized the image data because it can lead to better convergence usually. Here is how it looks like after the normalization operation using a simple equation (pixel - 128)/ 128.
 
 ![alt text][image4]
 
@@ -78,7 +78,7 @@ Then, I decided to generate additional data because the training data is not uni
 
 To add more data to the the data set, I used the image transformation techniques such as cv2.warpAffine and cv2.warpPerspective.
 
-Here is an example of an original image and an augmented image:
+Here is a random example of an original image and the augmented images:
 
 ![alt text][image5]
 
