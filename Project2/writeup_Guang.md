@@ -111,7 +111,7 @@ My final model consisted of the following layers:
 
 ####3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I used the defult LeNet with two layer of convolution layers and three layer of fully connected layers.  I used the AdamOptimizer with a learning rate of 0.0009.  The epochs used was 50 while the batch size was 128.  Other important parameters I learned were important was the number and distribution of additional data generated.  I played around with various different distributions of image class counts and it had a dramatic effect on the training set accuracy.  It didn't really have much of an effect on the test set accuracy, or real world image accuracy.  Finally, I was able to get 94.2% accuracy with virtually no changes on the test set. Here is the convergence plot for the training set and validation set.
+To train the model, I used the defult LeNet with two layer of convolution layers and three layer of fully connected layers.  I used the AdamOptimizer with a learning rate of 0.0009.  The epochs used was 50 while the batch size was 128.  Other important parameters I learned were important was the number and distribution of additional data generated.  I played around with various different distributions of image class counts and it had a dramatic effect on the training set accuracy.  It didn't really have much of an effect on the test set accuracy, or real world image accuracy.  Finally, I was able to get 95.1% accuracy with virtually no changes on the test set. Here is the convergence plot for the training set and validation set.
 
 ![alt text][image7]
 
