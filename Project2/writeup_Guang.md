@@ -118,9 +118,9 @@ To train the model, I used an LeNet for the most part that was given.  I used th
 ####4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* training set accuracy of 0.998
-* validation set accuracy of 0.993 
-* test set accuracy of 0.942
+* training set accuracy of 0.997
+* validation set accuracy of 0.992 
+* test set accuracy of 0.951
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
@@ -168,11 +168,12 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+| 0.467 | 60 km/h						 				|
+| 1.0			| Ahead Only      							|
+| 1.0			| Bumpy Road     							|
+| 1.0	  | General Caution  										|
+| 1.0	  | Stop sign   									| 
+| 1.0			| Yield											|
 
 ![alt text][image9] 
 
