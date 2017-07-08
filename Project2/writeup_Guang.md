@@ -154,7 +154,7 @@ The model was able to correctly guess all the traffic signs I found from the web
 
 ####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-For the first image, the model is relatively sure that this is a 60 km/h speed limit sign (probability of 0.467), and the second guess is No Passing sign (Class ID 9) with probability of 0.242, and the third guess is 80km/h speed limit sign (Class ID 5) with probability 0.145. This makes sense to me because these three different class do have similar shape. The model predict the correct class for the rest of five images with 100% probability, which is pretty good!
+For the first image, the model is relatively sure that this is a 60 km/h speed limit sign (probability of 0.467), and the second guess is No Passing sign (Class ID 9) with probability of 0.242, and the third guess is 80km/h speed limit sign (Class ID 5) with probability 0.145. This makes sense to me because these three different class do have similar shape. The model predict the correct class for the rest of five images with 100% probability, which is pretty good!!
 
 The top five soft max probabilities were listed in the image below the table.
 
