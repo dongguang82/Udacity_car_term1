@@ -117,7 +117,7 @@ To train the model, I used the defult LeNet with two layer of convolution layers
 
 ####4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
-I took LeNet-5 as my training architecture, because it was originally developed for the image recognition problem, such as MNIST handwritten digits recognition problem, which is similar to the traffic sign recognition problem. In order to make the validation accuracy higher than 0.93, there are two changes I implement to the data set. The first one is the training data augmentation, to make the training images in every category is more than 1500 images. The second one is to merge the train/validation set first, then use the sklearn module to redistribute the train/validation set to random select 20% of the data for the validation set.
+I took LeNet-5 as my training architecture, because it was originally developed for the image recognition problem, such as MNIST handwritten digits recognition problem, which is similar to the traffic sign recognition problem. In order to make the validation accuracy higher than 0.93, there are two changes I implemented to the data set. The first one is the training data augmentation, to make the training images in every category is more than 1500 images. The second one is to merge the train/validation set first, then use the sklearn module to redistribute the train/validation set to random select 20% of the data for the validation set.
 
 Regarding the LeNet-5 architecture, I keep most of them as default, the only change is to add two dropout layers between the fully connected layers with the dropout rate 0.5 to improve the potential overfitting issue.
 
@@ -154,7 +154,9 @@ The model was able to correctly guess all the traffic signs I found from the web
 
 ####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-For the first image, the model is relatively sure that this is a 60 km/h speed limit sign (probability of 0.467), and the second guess is No Passing sign (Class ID 9) with probability of 0.242, and the third guess is 80km/h speed limit sign (Class ID 5) with probability 0.145. This makes sense to me because these three different class do have similar shape. The top five soft max probabilities were listed in the image below
+For the first image, the model is relatively sure that this is a 60 km/h speed limit sign (probability of 0.467), and the second guess is No Passing sign (Class ID 9) with probability of 0.242, and the third guess is 80km/h speed limit sign (Class ID 5) with probability 0.145. This makes sense to me because these three different class do have similar shape. The model predict the correct class for the rest of five images with 100% probability, which is pretty good!
+
+The top five soft max probabilities were listed in the image below the table.
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
