@@ -1,1 +1,1 @@
-This is for Behavioral Cloning Project of Udacity cadnd
+This is for Behavioral Cloning Project of Udacity Self-Driving Car Nanodegree
